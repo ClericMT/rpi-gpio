@@ -5,9 +5,9 @@ GPIO.setup(40, GPIO.OUT)           # set GPIO24 as an output
   
 try:  
     while True:  
-        GPIO.output(24, 1)         # set GPIO24 to 1/GPIO.HIGH/True  
+        GPIO.output(40, 1)         # set GPIO24 to 1/GPIO.HIGH/True  
         sleep(0.5)                 # wait half a second  
-        GPIO.output(24, 0)         # set GPIO24 to 0/GPIO.LOW/False  
+        GPIO.output(40, 0)         # set GPIO24 to 0/GPIO.LOW/False  
         sleep(0.5)                 # wait half a second  
   
 except KeyboardInterrupt:          # trap a CTRL+C keyboard interrupt  
